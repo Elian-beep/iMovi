@@ -25,6 +25,8 @@
     <link rel="stylesheet" href="css/navbar.css">
     <!-- CSS do Slider -->
     <link rel="stylesheet" href="css/slider.css">
+    <!-- CSS do Mini Banners -->
+    <link rel="stylesheet" href="css/minibanners.css">
 
 </head>
 
@@ -79,7 +81,7 @@
                     <img src="img/banner-1.jpg" class="d-block w-100" alt="Casa 1" />
                     <div class="carousel-caption">
                         <h5>Casas planejadas</h5>
-                        <a href="#" class="btn btn-info">Ver Projeto</a>
+                        <a href="#" class="btn btn-info white-color">Ver Projeto</a>
                     </div>
                 </div>
 
@@ -87,7 +89,7 @@
                     <img src="img/banner-2.jpg" class="d-block w-100" alt="Casa 2" />
                     <div class="carousel-caption">
                         <h5>Projetos complexos</h5>
-                        <a href="#" class="btn btn-info">Ver Projeto</a>
+                        <a href="#" class="btn btn-info white-color">Ver Projeto</a>
                     </div>
                 </div>
 
@@ -95,9 +97,9 @@
                     <img src="img/banner-3.jpg" class="d-block w-100" alt="Casa 3" />
                     <div class="carousel-caption">
                         <h5>Projetos inovadores</h5>
-                        <a href="#" class="btn btn-info">Ver Projeto</a>
+                        <a href="#" class="btn btn-info white-color">Ver Projeto</a>
                     </div>
-                </div> 
+                </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
                 <i class="bi bi-chevron-compact-left"></i>
@@ -108,9 +110,58 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
-    </div>
+        <!-- INICIO: MINI BANNERS -->
+        <!-- Dentro do container do Slider -->
+        <div class="col-12 col-md-10 offset-md-1" id="mini-banners">
+            <!-- Ocupando o maximo de 12 colunas em uma tela media de 10, o offset centraliza as colunas utilizadas -->
+            <div class="row">
 
-    <!-- INICIO: SLIDER -->
+                <div class="col-12 col-md-4">
+                    <!-- O mini banner vai ocupar as 12 colunas no mobile, e 4 na media desktop -->
+                    <div class="card text-center">
+                        <i class="bi bi-box primary-color"></i>
+                        <div class="card-body">
+                            <h5 class="card-title primary-color">Projetos Completos</h5>
+                            <p class="card-text secondary-color">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                elit.</p>
+                            <a href="#" class="btn btn-info white-color">Saber mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <!-- O mini banner vai ocupar as 12 colunas no mobile, e 4 na media desktop -->
+                    <div class="card text-center">
+                        <i class="bi bi-layers primary-color"></i>
+                        <div class="card-body">
+                            <h5 class="card-title primary-color">Você participa também</h5>
+                            <p class="card-text secondary-color">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                elit.</p>
+                            <a href="#" class="btn btn-info white-color">Saber mais</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4">
+                    <!-- O mini banner vai ocupar as 12 colunas no mobile, e 4 na media desktop -->
+                    <div class="card text-center">
+                        <i class="bi bi-lightning-charge primary-color"></i>
+                        <div class="card-body">
+                            <h5 class="card-title primary-color">Adiantamento de entregas</h5>
+                            <p class="card-text secondary-color">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                elit.</p>
+                            <a href="#" class="btn btn-info white-color">Saber mais</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- FIM: MINI BANNERS -->
+    </div>
+    <!-- FIM: SLIDER -->
 </body>
 
 </html>
