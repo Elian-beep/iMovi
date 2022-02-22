@@ -1,0 +1,64 @@
+#slider{
+    margin-top: 8em;
+    margin-bottom: 1em;
+}
+
+#slider .carousel-caption{
+    bottom: 3em; /*Subindo um pouco mais os elementos do capitulo*/
+}
+
+#slider .carousel-caption a{
+    color: #FFF;
+}
+
+#slider .carousel-caption h5{
+    font-size: 2.5em;
+    text-shadow: #000 2px 2px; /*Aplica um sombreado 3d na fonte*/
+}
+
+.btn{
+    border-radius: 10px;
+}
+
+#slider .btn{
+    padding: 0.3em 0.8em; /*Aumentando o botão*/
+    font-size: 1em; /*Aumentando a fonte*/ 
+    margin-top: 1em;
+}
+
+.carousel-control-prev i,
+.carousel-control-next i{ /*Botões laterais de controle*/
+    color: #111;
+    font-size: 3em;
+}
+
+/*Permitir deixar os icones mais acessos, menos apagados (tanto os btns de avançar quanto os indicadores)*/
+.carousel-indicators [data-bs-target]{
+    background-color: #222;
+    opacity: 0.8;
+}
+
+.carousel-indicators .active{
+    background-color: #000;
+}
+
+/*-------------------- CRIANDO UMA MEDIA QUERY PARA MELHOR VISUALIZAÇÃO NO DESKTOP  --------------------*/
+@media(min-width: 768px){
+    #slider .carousel-caption{
+        bottom: 15em; /*Subindo um pouco mais os elementos do capitulo*/
+    }
+
+    #slider .carousel-caption h5{
+        font-size: 4em;
+        text-shadow: #000 2px 3px; /*Aplica um sombreado 3d na fonte*/
+    }
+
+    #slider .btn{
+        padding: 0.6em 1.6em; /*Aumentando o botão*/
+        font-size: 1.2em; /*Aumentando a fonte*/
+    }
+
+    .carousel-indicators{
+        bottom: 7em;
+    }
+}
