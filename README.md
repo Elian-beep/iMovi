@@ -5,7 +5,7 @@ Plataforma para compras e financiamentos de imóveis.
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
 | :sparkles: Nome        | **Imovi**
-| :label: Tecnologias | bootstrap, html, css, Javascripr
+| :label: Tecnologias | bootstrap, html, css, Javascript
 | :rocket: URL         | https://i-movi.vercel.app/
 | :fire: Desafio     | https://youtu.be/jJUpJA1GJHw
 
